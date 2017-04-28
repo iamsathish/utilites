@@ -1,0 +1,31 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "error.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@codefresh-io/yaml-validator": "0.0.18",
+    "@hpe/node-ssl-hpe-root-cas": "^1.2.1",
+    "arsenic-logger": "^0.5.5",
+    "bunyan": "^1.8.10",
+    "crypto": "0.0.3",
+    "fs": "0.0.1-security",
+    "https": "^1.0.0",
+    "js-yaml": "^3.8.3",
+    "nodemailer": "^4.0.1",
+    "nodemailer-smtp-transport": "^2.7.4",
+    "path": "^0.12.7",
+    "prompt": "^1.0.0",
+    "smime": "^2.0.1",
+    "tracer": "^0.8.7",
+    "winston": "^2.3.1",
+    "winston-daily-rotate-file": "^1.4.6",
+    "yaml-validator": "^0.3.0",
+    "yamljs": "^0.2.10"
+  }
+}

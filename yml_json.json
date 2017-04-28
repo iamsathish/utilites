@@ -1,0 +1,44 @@
+{
+  "application": {
+    "app_profile": {
+      "description": "New API for Message Broker Abstraction Consumer.  (Service to consume from Kafka and publish to other API's)",
+      "requestor": "satheesh@hpe.com",
+      "app_id": "206139_if-consumer",
+      "source": "APATE",
+      "owner_BU": "IT",
+      "name_space": "hpecorp.net",
+      "req_BU": "IT",
+      "epr_id": 206139
+    },
+    "contract": {
+      "version": 1.0
+    },
+    "access_profile": {
+      "ssl_certificate": false,
+      "audit_policy": "default",
+      "oauth_audience": null,
+      "app_certificate": true,
+      "label": "HPE confidential",
+      "token_type": "OAUTH2",
+      "instance": "dev",
+      "grants": [
+        "clients"
+      ],
+      "oauth_scope_family": "IT",
+      "client_id": "206139_if-consumer_dev",
+      "oauth_scope": null,
+      "secret_policy": "default"
+    },
+    "deployment_profile": {
+      "environment": {
+        "data_layer_label": "HPE confidential",
+        "storage_type": "VIRTUAL",
+        "redirect_uri": "https://if-abstract-msgbroker-svc-dev01.itcs.hpecorp.net/api/consumer",
+        "etype": "dev",
+        "network_isolation": "INTRANET",
+        "hostname": "if-abstract-msgbroker-svc-dev01.itcs.hpecorp.net",
+        "network_type": "VIRTUAL"
+      }
+    }
+  }
+}
